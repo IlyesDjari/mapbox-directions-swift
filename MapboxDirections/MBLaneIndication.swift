@@ -1,5 +1,4 @@
 import Foundation
-import MapboxDirectionsObjc
 
 public typealias LaneIndication = MBLaneIndication
 

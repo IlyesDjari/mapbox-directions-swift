@@ -1,5 +1,4 @@
 import Foundation
-import MapboxDirectionsObjc
 
 /**
  A `MatchOptions` object is a structure that specifies the criteria for results returned by the Mapbox Map Matching API.

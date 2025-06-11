@@ -20,6 +20,7 @@ Pod::Spec.new do |s|
 
   s.source_files     = 'MapboxDirections/**/*.{swift,h,m}', 'MapboxDirectionsObjc/**/*.{h,m}'
   s.public_header_files = 'MapboxDirectionsObjc/include/MapboxDirections.h'
+  s.module_map = 'MapboxDirectionsObjc/module.modulemap'
   s.resources        = 'MapboxDirectionsTests/resources/**/*'
 
   s.dependency 'Polyline', '5.1.0'

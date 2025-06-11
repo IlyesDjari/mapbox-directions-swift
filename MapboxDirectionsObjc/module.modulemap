@@ -1,0 +1,4 @@
+module MapboxDirectionsObjc {
+    header "include/MapboxDirections.h"
+    export *
+}

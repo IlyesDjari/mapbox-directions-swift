@@ -18,9 +18,11 @@ Pod::Spec.new do |s|
     'IPHONEOS_DEPLOYMENT_TARGET' => '15.6'
   }
 
-  s.source_files     = 'MapboxDirections/**/*.{swift,h,m}', 'MapboxDirectionsObjc/**/*.{h,m}'
-  s.public_header_files = 'MapboxDirectionsObjc/include/MapboxDirections.h'
-  s.module_map = 'MapboxDirectionsObjc/module.modulemap'
+  s.subspec 'Objc' do |ss|
+    ss.source_files      = 'MapboxDirectionsObjc/**/*.{h,m}'
+    ss.public_header_files = 'MapboxDirectionsObjc/include/MapboxDirections.h'
+    ss.module_map        = 'MapboxDirectionsObjc/module.modulemap'
+  end
   s.resources        = 'MapboxDirectionsTests/resources/**/*'
 
   s.dependency 'Polyline', '5.1.0'

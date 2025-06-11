@@ -13,6 +13,7 @@ Pod::Spec.new do |s|
   s.author           = { 'Ilyes Djari' => 'ilyes.djari@icapps.com' }
   s.source           = { :git => 'https://github.com/IlyesDjari/mapbox-directions-swift.git', :tag => s.version.to_s }
 
+  s.platform = :ios, '15.6'
   s.ios.deployment_target = '15.6'
   s.swift_version    = '5.9'
 

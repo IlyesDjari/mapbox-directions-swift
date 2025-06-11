@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.swift_version    = '5.9'
 
   # Expose Swift and ObjC sources
-  s.source_files = 'MapboxDirections/Sources/**/*.{swift}', 'MapboxDirections/include/**/*.h', 'MapboxDirectionsObjc/**/*.{h,m}'
+  s.source_files = 'MapboxDirections/**/*.swift', 'MapboxDirectionsObjc/**/*.{h,m}', 'MapboxDirections/include/**/*.h'
   s.public_header_files = 'MapboxDirections/include/**/*.h', 'MapboxDirectionsObjc/include/MapboxDirections.h'
 
   s.resources        = 'MapboxDirectionsTests/resources/**/*'

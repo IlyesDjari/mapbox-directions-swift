@@ -1,0 +1,4 @@
+module OHHTTPStubsSwift {
+    header "/Users/ilyesdjari/mapbox-directions-swift/.build/arm64-apple-macosx/debug/OHHTTPStubsSwift.build/OHHTTPStubsSwift-Swift.h"
+    requires objc
+}

@@ -1,0 +1,4 @@
+module OHHTTPStubs {
+    umbrella "/Users/ilyesdjari/mapbox-directions-swift/.build/checkouts/OHHTTPStubs/Sources/OHHTTPStubs/include"
+    export *
+}

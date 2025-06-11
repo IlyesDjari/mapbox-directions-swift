@@ -1,0 +1,4 @@
+module MapboxDirectionsObjc {
+    umbrella "/Users/ilyesdjari/mapbox-directions-swift/MapboxDirectionsObjc/include"
+    export *
+}

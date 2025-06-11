@@ -1,0 +1,4 @@
+module MapboxDirections {
+    header "/Users/ilyesdjari/mapbox-directions-swift/.build/arm64-apple-macosx/debug/MapboxDirections.build/MapboxDirections-Swift.h"
+    requires objc
+}

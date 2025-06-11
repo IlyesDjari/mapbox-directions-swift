@@ -1,0 +1,44 @@
+{
+  "object" : {
+    "artifacts" : [
+
+    ],
+    "dependencies" : [
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "ohhttpstubs",
+          "kind" : "remoteSourceControl",
+          "location" : "https://github.com/AliSoftware/OHHTTPStubs",
+          "name" : "OHHTTPStubs"
+        },
+        "state" : {
+          "checkoutState" : {
+            "revision" : "12f19662426d0434d6c330c6974d53e2eb10ecd9",
+            "version" : "9.1.0"
+          },
+          "name" : "sourceControlCheckout"
+        },
+        "subpath" : "OHHTTPStubs"
+      },
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "polyline",
+          "kind" : "remoteSourceControl",
+          "location" : "https://github.com/raphaelmor/Polyline",
+          "name" : "Polyline"
+        },
+        "state" : {
+          "checkoutState" : {
+            "revision" : "353f80378dcd8f17eefe8550090c6b1ae3c9da23",
+            "version" : "5.1.0"
+          },
+          "name" : "sourceControlCheckout"
+        },
+        "subpath" : "Polyline"
+      }
+    ]
+  },
+  "version" : 6
+}

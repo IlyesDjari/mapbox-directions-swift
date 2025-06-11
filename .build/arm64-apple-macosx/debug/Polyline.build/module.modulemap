@@ -1,0 +1,4 @@
+module Polyline {
+    header "/Users/ilyesdjari/mapbox-directions-swift/.build/arm64-apple-macosx/debug/Polyline.build/Polyline-Swift.h"
+    requires objc
+}

@@ -1,0 +1,161 @@
+{
+  "": {
+    "swift-dependencies": "/Users/ilyesdjari/mapbox-directions-swift/.build/arm64-apple-macosx/debug/MapboxDirections.build/master.swiftdeps"
+  },
+  "/Users/ilyesdjari/mapbox-directions-swift/MapboxDirections/Extensions/Array.swift": {
+    "dependencies": "/Users/ilyesdjari/mapbox-directions-swift/.build/arm64-apple-macosx/debug/MapboxDirections.build/Array.d",
+    "object": "/Users/ilyesdjari/mapbox-directions-swift/.build/arm64-apple-macosx/debug/MapboxDirections.build/Array.swift.o",
+    "swiftmodule": "/Users/ilyesdjari/mapbox-directions-swift/.build/arm64-apple-macosx/debug/MapboxDirections.build/Array~partial.swiftmodule",
+    "swift-dependencies": "/Users/ilyesdjari/mapbox-directions-swift/.build/arm64-apple-macosx/debug/MapboxDirections.build/Array.swiftdeps"
+  },
+  "/Users/ilyesdjari/mapbox-directions-swift/MapboxDirections/Extensions/String.swift": {
+    "dependencies": "/Users/ilyesdjari/mapbox-directions-swift/.build/arm64-apple-macosx/debug/MapboxDirections.build/String.d",
+    "object": "/Users/ilyesdjari/mapbox-directions-swift/.build/arm64-apple-macosx/debug/MapboxDirections.build/String.swift.o",
+    "swiftmodule": "/Users/ilyesdjari/mapbox-directions-swift/.build/arm64-apple-macosx/debug/MapboxDirections.build/String~partial.swiftmodule",
+    "swift-dependencies": "/Users/ilyesdjari/mapbox-directions-swift/.build/arm64-apple-macosx/debug/MapboxDirections.build/String.swiftdeps"
+  },
+  "/Users/ilyesdjari/mapbox-directions-swift/MapboxDirections/MBAttribute.swift": {
+    "dependencies": "/Users/ilyesdjari/mapbox-directions-swift/.build/arm64-apple-macosx/debug/MapboxDirections.build/MBAttribute.d",
+    "object": "/Users/ilyesdjari/mapbox-directions-swift/.build/arm64-apple-macosx/debug/MapboxDirections.build/MBAttribute.swift.o",
+    "swiftmodule": "/Users/ilyesdjari/mapbox-directions-swift/.build/arm64-apple-macosx/debug/MapboxDirections.build/MBAttribute~partial.swiftmodule",
+    "swift-dependencies": "/Users/ilyesdjari/mapbox-directions-swift/.build/arm64-apple-macosx/debug/MapboxDirections.build/MBAttribute.swiftdeps"
+  },
+  "/Users/ilyesdjari/mapbox-directions-swift/MapboxDirections/MBComponentRepresentable.swift": {
+    "dependencies": "/Users/ilyesdjari/mapbox-directions-swift/.build/arm64-apple-macosx/debug/MapboxDirections.build/MBComponentRepresentable.d",
+    "object": "/Users/ilyesdjari/mapbox-directions-swift/.build/arm64-apple-macosx/debug/MapboxDirections.build/MBComponentRepresentable.swift.o",
+    "swiftmodule": "/Users/ilyesdjari/mapbox-directions-swift/.build/arm64-apple-macosx/debug/MapboxDirections.build/MBComponentRepresentable~partial.swiftmodule",
+    "swift-dependencies": "/Users/ilyesdjari/mapbox-directions-swift/.build/arm64-apple-macosx/debug/MapboxDirections.build/MBComponentRepresentable.swiftdeps"
+  },
+  "/Users/ilyesdjari/mapbox-directions-swift/MapboxDirections/MBCongestion.swift": {
+    "dependencies": "/Users/ilyesdjari/mapbox-directions-swift/.build/arm64-apple-macosx/debug/MapboxDirections.build/MBCongestion.d",
+    "object": "/Users/ilyesdjari/mapbox-directions-swift/.build/arm64-apple-macosx/debug/MapboxDirections.build/MBCongestion.swift.o",
+    "swiftmodule": "/Users/ilyesdjari/mapbox-directions-swift/.build/arm64-apple-macosx/debug/MapboxDirections.build/MBCongestion~partial.swiftmodule",
+    "swift-dependencies": "/Users/ilyesdjari/mapbox-directions-swift/.build/arm64-apple-macosx/debug/MapboxDirections.build/MBCongestion.swiftdeps"
+  },
+  "/Users/ilyesdjari/mapbox-directions-swift/MapboxDirections/MBDirections.swift": {
+    "dependencies": "/Users/ilyesdjari/mapbox-directions-swift/.build/arm64-apple-macosx/debug/MapboxDirections.build/MBDirections.d",
+    "object": "/Users/ilyesdjari/mapbox-directions-swift/.build/arm64-apple-macosx/debug/MapboxDirections.build/MBDirections.swift.o",
+    "swiftmodule": "/Users/ilyesdjari/mapbox-directions-swift/.build/arm64-apple-macosx/debug/MapboxDirections.build/MBDirections~partial.swiftmodule",
+    "swift-dependencies": "/Users/ilyesdjari/mapbox-directions-swift/.build/arm64-apple-macosx/debug/MapboxDirections.build/MBDirections.swiftdeps"
+  },
+  "/Users/ilyesdjari/mapbox-directions-swift/MapboxDirections/MBDirectionsOptions.swift": {
+    "dependencies": "/Users/ilyesdjari/mapbox-directions-swift/.build/arm64-apple-macosx/debug/MapboxDirections.build/MBDirectionsOptions.d",
+    "object": "/Users/ilyesdjari/mapbox-directions-swift/.build/arm64-apple-macosx/debug/MapboxDirections.build/MBDirectionsOptions.swift.o",
+    "swiftmodule": "/Users/ilyesdjari/mapbox-directions-swift/.build/arm64-apple-macosx/debug/MapboxDirections.build/MBDirectionsOptions~partial.swiftmodule",
+    "swift-dependencies": "/Users/ilyesdjari/mapbox-directions-swift/.build/arm64-apple-macosx/debug/MapboxDirections.build/MBDirectionsOptions.swiftdeps"
+  },
+  "/Users/ilyesdjari/mapbox-directions-swift/MapboxDirections/MBDirectionsResult.swift": {
+    "dependencies": "/Users/ilyesdjari/mapbox-directions-swift/.build/arm64-apple-macosx/debug/MapboxDirections.build/MBDirectionsResult.d",
+    "object": "/Users/ilyesdjari/mapbox-directions-swift/.build/arm64-apple-macosx/debug/MapboxDirections.build/MBDirectionsResult.swift.o",
+    "swiftmodule": "/Users/ilyesdjari/mapbox-directions-swift/.build/arm64-apple-macosx/debug/MapboxDirections.build/MBDirectionsResult~partial.swiftmodule",
+    "swift-dependencies": "/Users/ilyesdjari/mapbox-directions-swift/.build/arm64-apple-macosx/debug/MapboxDirections.build/MBDirectionsResult.swiftdeps"
+  },
+  "/Users/ilyesdjari/mapbox-directions-swift/MapboxDirections/MBIntersection.swift": {
+    "dependencies": "/Users/ilyesdjari/mapbox-directions-swift/.build/arm64-apple-macosx/debug/MapboxDirections.build/MBIntersection.d",
+    "object": "/Users/ilyesdjari/mapbox-directions-swift/.build/arm64-apple-macosx/debug/MapboxDirections.build/MBIntersection.swift.o",
+    "swiftmodule": "/Users/ilyesdjari/mapbox-directions-swift/.build/arm64-apple-macosx/debug/MapboxDirections.build/MBIntersection~partial.swiftmodule",
+    "swift-dependencies": "/Users/ilyesdjari/mapbox-directions-swift/.build/arm64-apple-macosx/debug/MapboxDirections.build/MBIntersection.swiftdeps"
+  },
+  "/Users/ilyesdjari/mapbox-directions-swift/MapboxDirections/MBLane.swift": {
+    "dependencies": "/Users/ilyesdjari/mapbox-directions-swift/.build/arm64-apple-macosx/debug/MapboxDirections.build/MBLane.d",
+    "object": "/Users/ilyesdjari/mapbox-directions-swift/.build/arm64-apple-macosx/debug/MapboxDirections.build/MBLane.swift.o",
+    "swiftmodule": "/Users/ilyesdjari/mapbox-directions-swift/.build/arm64-apple-macosx/debug/MapboxDirections.build/MBLane~partial.swiftmodule",
+    "swift-dependencies": "/Users/ilyesdjari/mapbox-directions-swift/.build/arm64-apple-macosx/debug/MapboxDirections.build/MBLane.swiftdeps"
+  },
+  "/Users/ilyesdjari/mapbox-directions-swift/MapboxDirections/MBLaneIndication.swift": {
+    "dependencies": "/Users/ilyesdjari/mapbox-directions-swift/.build/arm64-apple-macosx/debug/MapboxDirections.build/MBLaneIndication.d",
+    "object": "/Users/ilyesdjari/mapbox-directions-swift/.build/arm64-apple-macosx/debug/MapboxDirections.build/MBLaneIndication.swift.o",
+    "swiftmodule": "/Users/ilyesdjari/mapbox-directions-swift/.build/arm64-apple-macosx/debug/MapboxDirections.build/MBLaneIndication~partial.swiftmodule",
+    "swift-dependencies": "/Users/ilyesdjari/mapbox-directions-swift/.build/arm64-apple-macosx/debug/MapboxDirections.build/MBLaneIndication.swiftdeps"
+  },
+  "/Users/ilyesdjari/mapbox-directions-swift/MapboxDirections/MBLaneIndicationComponent.swift": {
+    "dependencies": "/Users/ilyesdjari/mapbox-directions-swift/.build/arm64-apple-macosx/debug/MapboxDirections.build/MBLaneIndicationComponent.d",
+    "object": "/Users/ilyesdjari/mapbox-directions-swift/.build/arm64-apple-macosx/debug/MapboxDirections.build/MBLaneIndicationComponent.swift.o",
+    "swiftmodule": "/Users/ilyesdjari/mapbox-directions-swift/.build/arm64-apple-macosx/debug/MapboxDirections.build/MBLaneIndicationComponent~partial.swiftmodule",
+    "swift-dependencies": "/Users/ilyesdjari/mapbox-directions-swift/.build/arm64-apple-macosx/debug/MapboxDirections.build/MBLaneIndicationComponent.swiftdeps"
+  },
+  "/Users/ilyesdjari/mapbox-directions-swift/MapboxDirections/MBRoadClasses.swift": {
+    "dependencies": "/Users/ilyesdjari/mapbox-directions-swift/.build/arm64-apple-macosx/debug/MapboxDirections.build/MBRoadClasses.d",
+    "object": "/Users/ilyesdjari/mapbox-directions-swift/.build/arm64-apple-macosx/debug/MapboxDirections.build/MBRoadClasses.swift.o",
+    "swiftmodule": "/Users/ilyesdjari/mapbox-directions-swift/.build/arm64-apple-macosx/debug/MapboxDirections.build/MBRoadClasses~partial.swiftmodule",
+    "swift-dependencies": "/Users/ilyesdjari/mapbox-directions-swift/.build/arm64-apple-macosx/debug/MapboxDirections.build/MBRoadClasses.swiftdeps"
+  },
+  "/Users/ilyesdjari/mapbox-directions-swift/MapboxDirections/MBRoute.swift": {
+    "dependencies": "/Users/ilyesdjari/mapbox-directions-swift/.build/arm64-apple-macosx/debug/MapboxDirections.build/MBRoute.d",
+    "object": "/Users/ilyesdjari/mapbox-directions-swift/.build/arm64-apple-macosx/debug/MapboxDirections.build/MBRoute.swift.o",
+    "swiftmodule": "/Users/ilyesdjari/mapbox-directions-swift/.build/arm64-apple-macosx/debug/MapboxDirections.build/MBRoute~partial.swiftmodule",
+    "swift-dependencies": "/Users/ilyesdjari/mapbox-directions-swift/.build/arm64-apple-macosx/debug/MapboxDirections.build/MBRoute.swiftdeps"
+  },
+  "/Users/ilyesdjari/mapbox-directions-swift/MapboxDirections/MBRouteLeg.swift": {
+    "dependencies": "/Users/ilyesdjari/mapbox-directions-swift/.build/arm64-apple-macosx/debug/MapboxDirections.build/MBRouteLeg.d",
+    "object": "/Users/ilyesdjari/mapbox-directions-swift/.build/arm64-apple-macosx/debug/MapboxDirections.build/MBRouteLeg.swift.o",
+    "swiftmodule": "/Users/ilyesdjari/mapbox-directions-swift/.build/arm64-apple-macosx/debug/MapboxDirections.build/MBRouteLeg~partial.swiftmodule",
+    "swift-dependencies": "/Users/ilyesdjari/mapbox-directions-swift/.build/arm64-apple-macosx/debug/MapboxDirections.build/MBRouteLeg.swiftdeps"
+  },
+  "/Users/ilyesdjari/mapbox-directions-swift/MapboxDirections/MBRouteOptions.swift": {
+    "dependencies": "/Users/ilyesdjari/mapbox-directions-swift/.build/arm64-apple-macosx/debug/MapboxDirections.build/MBRouteOptions.d",
+    "object": "/Users/ilyesdjari/mapbox-directions-swift/.build/arm64-apple-macosx/debug/MapboxDirections.build/MBRouteOptions.swift.o",
+    "swiftmodule": "/Users/ilyesdjari/mapbox-directions-swift/.build/arm64-apple-macosx/debug/MapboxDirections.build/MBRouteOptions~partial.swiftmodule",
+    "swift-dependencies": "/Users/ilyesdjari/mapbox-directions-swift/.build/arm64-apple-macosx/debug/MapboxDirections.build/MBRouteOptions.swiftdeps"
+  },
+  "/Users/ilyesdjari/mapbox-directions-swift/MapboxDirections/MBRouteStep.swift": {
+    "dependencies": "/Users/ilyesdjari/mapbox-directions-swift/.build/arm64-apple-macosx/debug/MapboxDirections.build/MBRouteStep.d",
+    "object": "/Users/ilyesdjari/mapbox-directions-swift/.build/arm64-apple-macosx/debug/MapboxDirections.build/MBRouteStep.swift.o",
+    "swiftmodule": "/Users/ilyesdjari/mapbox-directions-swift/.build/arm64-apple-macosx/debug/MapboxDirections.build/MBRouteStep~partial.swiftmodule",
+    "swift-dependencies": "/Users/ilyesdjari/mapbox-directions-swift/.build/arm64-apple-macosx/debug/MapboxDirections.build/MBRouteStep.swiftdeps"
+  },
+  "/Users/ilyesdjari/mapbox-directions-swift/MapboxDirections/MBSpokenInstruction.swift": {
+    "dependencies": "/Users/ilyesdjari/mapbox-directions-swift/.build/arm64-apple-macosx/debug/MapboxDirections.build/MBSpokenInstruction.d",
+    "object": "/Users/ilyesdjari/mapbox-directions-swift/.build/arm64-apple-macosx/debug/MapboxDirections.build/MBSpokenInstruction.swift.o",
+    "swiftmodule": "/Users/ilyesdjari/mapbox-directions-swift/.build/arm64-apple-macosx/debug/MapboxDirections.build/MBSpokenInstruction~partial.swiftmodule",
+    "swift-dependencies": "/Users/ilyesdjari/mapbox-directions-swift/.build/arm64-apple-macosx/debug/MapboxDirections.build/MBSpokenInstruction.swiftdeps"
+  },
+  "/Users/ilyesdjari/mapbox-directions-swift/MapboxDirections/MBVisualInstruction.swift": {
+    "dependencies": "/Users/ilyesdjari/mapbox-directions-swift/.build/arm64-apple-macosx/debug/MapboxDirections.build/MBVisualInstruction.d",
+    "object": "/Users/ilyesdjari/mapbox-directions-swift/.build/arm64-apple-macosx/debug/MapboxDirections.build/MBVisualInstruction.swift.o",
+    "swiftmodule": "/Users/ilyesdjari/mapbox-directions-swift/.build/arm64-apple-macosx/debug/MapboxDirections.build/MBVisualInstruction~partial.swiftmodule",
+    "swift-dependencies": "/Users/ilyesdjari/mapbox-directions-swift/.build/arm64-apple-macosx/debug/MapboxDirections.build/MBVisualInstruction.swiftdeps"
+  },
+  "/Users/ilyesdjari/mapbox-directions-swift/MapboxDirections/MBVisualInstructionBanner.swift": {
+    "dependencies": "/Users/ilyesdjari/mapbox-directions-swift/.build/arm64-apple-macosx/debug/MapboxDirections.build/MBVisualInstructionBanner.d",
+    "object": "/Users/ilyesdjari/mapbox-directions-swift/.build/arm64-apple-macosx/debug/MapboxDirections.build/MBVisualInstructionBanner.swift.o",
+    "swiftmodule": "/Users/ilyesdjari/mapbox-directions-swift/.build/arm64-apple-macosx/debug/MapboxDirections.build/MBVisualInstructionBanner~partial.swiftmodule",
+    "swift-dependencies": "/Users/ilyesdjari/mapbox-directions-swift/.build/arm64-apple-macosx/debug/MapboxDirections.build/MBVisualInstructionBanner.swiftdeps"
+  },
+  "/Users/ilyesdjari/mapbox-directions-swift/MapboxDirections/MBVisualInstructionComponent.swift": {
+    "dependencies": "/Users/ilyesdjari/mapbox-directions-swift/.build/arm64-apple-macosx/debug/MapboxDirections.build/MBVisualInstructionComponent.d",
+    "object": "/Users/ilyesdjari/mapbox-directions-swift/.build/arm64-apple-macosx/debug/MapboxDirections.build/MBVisualInstructionComponent.swift.o",
+    "swiftmodule": "/Users/ilyesdjari/mapbox-directions-swift/.build/arm64-apple-macosx/debug/MapboxDirections.build/MBVisualInstructionComponent~partial.swiftmodule",
+    "swift-dependencies": "/Users/ilyesdjari/mapbox-directions-swift/.build/arm64-apple-macosx/debug/MapboxDirections.build/MBVisualInstructionComponent.swiftdeps"
+  },
+  "/Users/ilyesdjari/mapbox-directions-swift/MapboxDirections/MBVisualInstructionType.swift": {
+    "dependencies": "/Users/ilyesdjari/mapbox-directions-swift/.build/arm64-apple-macosx/debug/MapboxDirections.build/MBVisualInstructionType.d",
+    "object": "/Users/ilyesdjari/mapbox-directions-swift/.build/arm64-apple-macosx/debug/MapboxDirections.build/MBVisualInstructionType.swift.o",
+    "swiftmodule": "/Users/ilyesdjari/mapbox-directions-swift/.build/arm64-apple-macosx/debug/MapboxDirections.build/MBVisualInstructionType~partial.swiftmodule",
+    "swift-dependencies": "/Users/ilyesdjari/mapbox-directions-swift/.build/arm64-apple-macosx/debug/MapboxDirections.build/MBVisualInstructionType.swiftdeps"
+  },
+  "/Users/ilyesdjari/mapbox-directions-swift/MapboxDirections/MBWaypoint.swift": {
+    "dependencies": "/Users/ilyesdjari/mapbox-directions-swift/.build/arm64-apple-macosx/debug/MapboxDirections.build/MBWaypoint.d",
+    "object": "/Users/ilyesdjari/mapbox-directions-swift/.build/arm64-apple-macosx/debug/MapboxDirections.build/MBWaypoint.swift.o",
+    "swiftmodule": "/Users/ilyesdjari/mapbox-directions-swift/.build/arm64-apple-macosx/debug/MapboxDirections.build/MBWaypoint~partial.swiftmodule",
+    "swift-dependencies": "/Users/ilyesdjari/mapbox-directions-swift/.build/arm64-apple-macosx/debug/MapboxDirections.build/MBWaypoint.swiftdeps"
+  },
+  "/Users/ilyesdjari/mapbox-directions-swift/MapboxDirections/Match/MBMatch.swift": {
+    "dependencies": "/Users/ilyesdjari/mapbox-directions-swift/.build/arm64-apple-macosx/debug/MapboxDirections.build/MBMatch.d",
+    "object": "/Users/ilyesdjari/mapbox-directions-swift/.build/arm64-apple-macosx/debug/MapboxDirections.build/MBMatch.swift.o",
+    "swiftmodule": "/Users/ilyesdjari/mapbox-directions-swift/.build/arm64-apple-macosx/debug/MapboxDirections.build/MBMatch~partial.swiftmodule",
+    "swift-dependencies": "/Users/ilyesdjari/mapbox-directions-swift/.build/arm64-apple-macosx/debug/MapboxDirections.build/MBMatch.swiftdeps"
+  },
+  "/Users/ilyesdjari/mapbox-directions-swift/MapboxDirections/Match/MBMatchOptions.swift": {
+    "dependencies": "/Users/ilyesdjari/mapbox-directions-swift/.build/arm64-apple-macosx/debug/MapboxDirections.build/MBMatchOptions.d",
+    "object": "/Users/ilyesdjari/mapbox-directions-swift/.build/arm64-apple-macosx/debug/MapboxDirections.build/MBMatchOptions.swift.o",
+    "swiftmodule": "/Users/ilyesdjari/mapbox-directions-swift/.build/arm64-apple-macosx/debug/MapboxDirections.build/MBMatchOptions~partial.swiftmodule",
+    "swift-dependencies": "/Users/ilyesdjari/mapbox-directions-swift/.build/arm64-apple-macosx/debug/MapboxDirections.build/MBMatchOptions.swiftdeps"
+  },
+  "/Users/ilyesdjari/mapbox-directions-swift/MapboxDirections/Match/MBTracepoint.swift": {
+    "dependencies": "/Users/ilyesdjari/mapbox-directions-swift/.build/arm64-apple-macosx/debug/MapboxDirections.build/MBTracepoint.d",
+    "object": "/Users/ilyesdjari/mapbox-directions-swift/.build/arm64-apple-macosx/debug/MapboxDirections.build/MBTracepoint.swift.o",
+    "swiftmodule": "/Users/ilyesdjari/mapbox-directions-swift/.build/arm64-apple-macosx/debug/MapboxDirections.build/MBTracepoint~partial.swiftmodule",
+    "swift-dependencies": "/Users/ilyesdjari/mapbox-directions-swift/.build/arm64-apple-macosx/debug/MapboxDirections.build/MBTracepoint.swiftdeps"
+  }
+}

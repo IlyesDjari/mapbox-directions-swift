@@ -14,19 +14,21 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/IlyesDjari/mapbox-directions-swift.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '15.6'
-  s.pod_target_xcconfig = {
-    'IPHONEOS_DEPLOYMENT_TARGET' => '15.6'
-  }
+  s.swift_version    = '5.9'
 
+  # Expose Swift sources
+  s.source_files = 'MapboxDirections/Sources/**/*.{swift}', 'MapboxDirections/include/**/*.h'
+  s.public_header_files = 'MapboxDirections/include/**/*.h'
+
+  # Expose Objective-C bridge as a subspec
   s.subspec 'Objc' do |ss|
     ss.source_files      = 'MapboxDirectionsObjc/**/*.{h,m}'
     ss.public_header_files = 'MapboxDirectionsObjc/include/MapboxDirections.h'
     ss.module_map        = 'MapboxDirectionsObjc/module.modulemap'
   end
+
   s.resources        = 'MapboxDirectionsTests/resources/**/*'
 
   s.dependency 'Polyline', '5.1.0'
   s.dependency 'OHHTTPStubs', '~> 9.0'
-
-  s.swift_version    = '5.9'
 end

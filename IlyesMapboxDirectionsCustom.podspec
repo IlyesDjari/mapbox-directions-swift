@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
   s.name             = 'IlyesMapboxDirectionsCustom'
   s.version          = '0.23.3'
   s.summary          = 'Mapbox Directions API client for iOS in Swift.'
-
+  s.module_name      = 'MapboxDirections'
   s.description      = <<-DESC
                        A Swift library to interact with the Mapbox Directions API, 
                        offering support for both Swift and Objective-C.
@@ -13,20 +13,12 @@ Pod::Spec.new do |s|
   s.author           = { 'Ilyes Djari' => 'ilyes.djari@icapps.com' }
   s.source           = { :git => 'https://github.com/IlyesDjari/mapbox-directions-swift.git', :tag => s.version.to_s }
 
-  s.platform = :ios, '15.6'
-  s.ios.deployment_target = '15.6'
+  s.platform         = :ios, '15.6'
   s.swift_version    = '5.9'
 
-  # Expose Swift sources
-  s.source_files = 'MapboxDirections/Sources/**/*.{swift}', 'MapboxDirections/include/**/*.h'
-  s.public_header_files = 'MapboxDirections/include/**/*.h'
-
-  # Expose Objective-C bridge as a subspec
-  s.subspec 'Objc' do |ss|
-    ss.source_files      = 'MapboxDirectionsObjc/**/*.{h,m}'
-    ss.public_header_files = 'MapboxDirectionsObjc/include/MapboxDirections.h'
-    ss.module_map        = 'MapboxDirectionsObjc/module.modulemap'
-  end
+  # Expose Swift and ObjC sources
+  s.source_files = 'MapboxDirections/Sources/**/*.{swift}', 'MapboxDirections/include/**/*.h', 'MapboxDirectionsObjc/**/*.{h,m}'
+  s.public_header_files = 'MapboxDirections/include/**/*.h', 'MapboxDirectionsObjc/include/MapboxDirections.h'
 
   s.resources        = 'MapboxDirectionsTests/resources/**/*'
 

@@ -14,7 +14,6 @@ Pod::Spec.new do |s|
   s.platform         = :ios, '15.6'
   s.swift_version    = '5.9'
 
-  # ✅ Public headers
   s.public_header_files = 'MapboxDirectionsObjc/include/**/*.h'
   s.source_files = [
     'MapboxDirections/**/*.swift',
@@ -22,7 +21,6 @@ Pod::Spec.new do |s|
   ]
   s.header_mappings_dir = 'MapboxDirectionsObjc/include'
 
-  # ✅ Optional resources (ensure folder exists or remove)
   s.resources = 'MapboxDirectionsTests/resources/**/*'
 
   s.requires_arc = true

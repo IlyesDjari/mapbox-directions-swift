@@ -19,6 +19,7 @@ Pod::Spec.new do |s|
 
   s.source_files = 'MapboxDirections/**/*.swift', 'MapboxDirectionsObjc/**/*.{h,m}', 'MapboxDirections/include/**/*.h'
   s.public_header_files = 'MapboxDirections/include/**/*.h', 'MapboxDirectionsObjc/include/MapboxDirections.h'
+  s.resources = 'MapboxDirectionsTests/resources/**/*'
 
   s.exclude_files = [
     'MapboxDirections/Match/**',

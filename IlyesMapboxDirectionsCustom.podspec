@@ -16,17 +16,21 @@ Pod::Spec.new do |s|
   s.platform         = :ios, '15.6'
   s.swift_version    = '5.9'
 
-  # Source files
-  s.source_files = 'MapboxDirections/**/*.swift', 'MapboxDirectionsObjc/**/*.{h,m}', 'MapboxDirections/include/**/*.h'
-  s.public_header_files = 'MapboxDirections/include/**/*.h', 'MapboxDirectionsObjc/include/MapboxDirections.h'
+  # Only include actual code files
+  s.source_files = [
+    'MapboxDirections/**/*.swift',
+    'MapboxDirectionsObjc/**/*.{h,m}',
+    'MapboxDirections/include/**/*.h'
+  ]
 
-  # Exclude folders that cause build/resource issues
-  s.exclude_files = ['MapboxDirections/Match/**']
-
-  # Only package test resources safely in a bundle
-  s.resource_bundles = {
-    'MapboxDirectionsResources' => ['MapboxDirectionsTests/resources/**/*']
-  }
+  # Exclude folders from resources AND file copying
+  s.exclude_files = [
+    'MapboxDirections/Match/**',
+    'MapboxDirectionsTests/**',
+    'MapboxDirections.xcodeproj',
+    'docs/**',
+    'scripts/**'
+  ]
 
   # Dependencies
   s.dependency 'Polyline', '5.1.0'

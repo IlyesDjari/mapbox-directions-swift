@@ -18,12 +18,17 @@ Pod::Spec.new do |s|
   s.swift_version    = '5.9'
 
   s.pod_target_xcconfig = {
-  'DEFINES_MODULE' => 'YES',
-  'CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES' => 'YES'
- }
+    'DEFINES_MODULE' => 'YES',
+    'CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES' => 'YES'
+  }
 
-  s.source_files = 'MapboxDirections/**/*.swift', 'MapboxDirectionsObjc/**/*.{h,m}', 'MapboxDirectionsObjc/include/**/*.h'
-  s.public_header_files = 'MapboxDirections/include/**/*.h', 'MapboxDirectionsObjc/include/MapboxDirections.h'
+  s.source_files = [
+    'MapboxDirections/**/*.swift',
+    'MapboxDirectionsObjc/**/*.{h,m}'
+  ]
+
+  s.public_header_files = 'MapboxDirectionsObjc/include/**/*.h'
+
   s.resources = 'MapboxDirectionsTests/resources/**/*'
   s.requires_arc = true
 

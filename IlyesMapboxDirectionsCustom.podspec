@@ -20,7 +20,8 @@ Pod::Spec.new do |s|
 
   s.pod_target_xcconfig = {
     'DEFINES_MODULE' => 'YES',
-    'CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES' => 'YES'
+    'CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES' => 'YES',
+    'CLANG_MODULES_AUTOLINK' => 'YES'
   }
 
   s.source_files = [
@@ -41,11 +42,4 @@ Pod::Spec.new do |s|
 
   s.dependency 'Polyline', '5.1.0'
   s.dependency 'OHHTTPStubs', '~> 9.0'
-
-  s.pod_target_xcconfig.merge!({
-    'CLANG_MODULES_AUTOLINK' => 'YES'
-  })
-
-  # Optional, but useful to suppress warnings
-  s.static_framework = true
 end

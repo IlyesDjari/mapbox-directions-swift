@@ -14,14 +14,12 @@ Pod::Spec.new do |s|
   s.platform         = :ios, '15.6'
   s.swift_version    = '5.9'
 
-  # ✅ Swift and Objective-C sources
+  # ✅ Public headers
+  s.public_header_files = 'MapboxDirectionsObjc/include/**/*.h'
   s.source_files = [
     'MapboxDirections/**/*.swift',
     'MapboxDirectionsObjc/**/*.{h,m}'
   ]
-
-  # ✅ Public headers
-  s.public_header_files = 'MapboxDirectionsObjc/include/**/*.h'
   s.header_mappings_dir = 'MapboxDirectionsObjc/include'
 
   # ✅ Optional resources (ensure folder exists or remove)
@@ -36,11 +34,9 @@ Pod::Spec.new do |s|
     'scripts/**'
   ]
 
-  # ✅ Prevent compatibility header generation
   s.pod_target_xcconfig = {
-    'DEFINES_MODULE' => 'YES',
-    'CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES' => 'YES',
-    'SWIFT_OBJC_INTERFACE_HEADER_NAME' => ''
+  'DEFINES_MODULE' => 'YES',
+  'CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES' => 'YES'
   }
 
   s.dependency 'Polyline', '5.1.0'

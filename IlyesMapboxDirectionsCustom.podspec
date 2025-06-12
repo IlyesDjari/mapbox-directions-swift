@@ -16,6 +16,8 @@ Pod::Spec.new do |s|
   s.platform         = :ios, '15.6'
   s.swift_version    = '5.9'
 
+  s.static_framework = true
+
   # Only include actual code files
   s.source_files = [
     'MapboxDirections/**/*.swift',

@@ -28,7 +28,6 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.exclude_files = [
-    'MapboxDirections/Match/**',
     'MapboxDirectionsTests/**',
     'MapboxDirections.xcodeproj',
     'docs/**',

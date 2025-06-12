@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name             = 'IlyesMapboxDirectionsCustom'
+  s.name             = 'MapboxDirections'
   s.version          = '0.23.3'
   s.summary          = 'Mapbox Directions API client for iOS in Swift.'
   s.description      = 'A Swift library to interact with the Mapbox Directions API.'

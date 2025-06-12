@@ -4,9 +4,9 @@ Pod::Spec.new do |s|
   s.summary          = 'Mapbox Directions API client for iOS in Swift.'
   s.module_name      = 'MapboxDirections'
   s.description      = <<-DESC
-                       A Swift library to interact with the Mapbox Directions API, 
-                       offering support for both Swift and Objective-C.
-                       DESC
+    A Swift library to interact with the Mapbox Directions API, 
+    offering support for both Swift and Objective-C.
+  DESC
 
   s.homepage         = 'https://github.com/IlyesDjari/mapbox-directions-swift'
   s.license          = { :type => 'MIT', :file => 'LICENSE.md' }
@@ -16,12 +16,19 @@ Pod::Spec.new do |s|
   s.platform         = :ios, '15.6'
   s.swift_version    = '5.9'
 
-  # Expose Swift and ObjC sources
+  # Source files
   s.source_files = 'MapboxDirections/**/*.swift', 'MapboxDirectionsObjc/**/*.{h,m}', 'MapboxDirections/include/**/*.h'
   s.public_header_files = 'MapboxDirections/include/**/*.h', 'MapboxDirectionsObjc/include/MapboxDirections.h'
 
-  s.resources        = 'MapboxDirectionsTests/resources/**/*'
+  # Exclude folders that cause build/resource issues
+  s.exclude_files = ['MapboxDirections/Match/**']
 
+  # Only package test resources safely in a bundle
+  s.resource_bundles = {
+    'MapboxDirectionsResources' => ['MapboxDirectionsTests/resources/**/*']
+  }
+
+  # Dependencies
   s.dependency 'Polyline', '5.1.0'
   s.dependency 'OHHTTPStubs', '~> 9.0'
 end

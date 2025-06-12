@@ -40,5 +40,5 @@ Pod::Spec.new do |s|
   ]
 
   s.dependency 'Polyline', '5.1.0'
-  s.dependency 'OHHTTPStubs', '~> 9.0'
+  s.dependency 'OHHTTPStubs', '~> 9.0', :modular_headers => true
 end

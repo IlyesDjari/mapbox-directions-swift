@@ -4,6 +4,7 @@ Pod::Spec.new do |s|
   s.summary          = 'Mapbox Directions API client for iOS in Swift.'
   s.module_name      = 'MapboxDirections'
   s.static_framework = true
+
   s.description      = <<-DESC
     A Swift library to interact with the Mapbox Directions API, 
     offering support for both Swift and Objective-C.
@@ -27,8 +28,7 @@ Pod::Spec.new do |s|
     'MapboxDirectionsObjc/**/*.{h,m}'
   ]
 
-  s.public_header_files = 'MapboxDirectionsObjc/include/**/*.h'
-
+  s.public_header_files = 'MapboxDirectionsObjc/include/MapboxDirections/**/*.h'
   s.resources = 'MapboxDirectionsTests/resources/**/*'
   s.requires_arc = true
 
@@ -40,5 +40,12 @@ Pod::Spec.new do |s|
   ]
 
   s.dependency 'Polyline', '5.1.0'
-  s.dependency 'OHHTTPStubs', '~> 9.0', :modular_headers => true
+  s.dependency 'OHHTTPStubs', '~> 9.0'
+
+  s.pod_target_xcconfig.merge!({
+    'CLANG_MODULES_AUTOLINK' => 'YES'
+  })
+
+  # Optional, but useful to suppress warnings
+  s.static_framework = true
 end

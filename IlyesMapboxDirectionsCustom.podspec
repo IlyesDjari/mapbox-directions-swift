@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
     'MapboxDirectionsObjc/**/*.{h,m}'
   ]
 
-  s.public_header_files = 'MapboxDirectionsObjc/include/**/*.h'
+  s.public_header_files = 'MapboxDirectionsObjc/include/MapboxDirections/**/*.h'
   s.header_mappings_dir = 'MapboxDirectionsObjc/include'
 
   s.resources = 'MapboxDirectionsTests/resources/**/*'
